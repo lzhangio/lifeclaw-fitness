@@ -135,8 +135,8 @@ body {
 .style-timeline .tl-seg span { font-size: 10px; font-weight: 500; opacity: 0.8; }
 .style-timeline .tl-s1 { flex: 6; background: #c8d8c0; color: #3a5a2e; }
 .style-timeline .tl-s2 { flex: 7; background: #8aaa78; }
-.style-timeline .tl-s3 { flex: 25; background: #4a8a3a; }
-.style-timeline .tl-s4 { flex: 7; background: #8aaa78; }
+.style-timeline .tl-s3 { flex: 22; background: #4a8a3a; }
+.style-timeline .tl-s4 { flex: 5; background: #8aaa78; }
 .style-timeline .tl-s5 { flex: 5; background: #b8cca8; color: #3a5a2e; }
 
 .style-timeline .tl-settings { display: flex; gap: 3px; margin-top: 6px; }
@@ -144,8 +144,8 @@ body {
 .style-timeline .tl-set span { font-size: 11px; color: #9a9a8a; }
 .style-timeline .tl-set.s1 { flex: 6; }
 .style-timeline .tl-set.s2 { flex: 7; }
-.style-timeline .tl-set.s3 { flex: 25; }
-.style-timeline .tl-set.s4 { flex: 7; }
+.style-timeline .tl-set.s3 { flex: 22; }
+.style-timeline .tl-set.s4 { flex: 5; }
 .style-timeline .tl-set.s5 { flex: 5; }
 
 .style-timeline .sum-box { background: #f0eee6; border: 1px solid #e0ddd4; }
@@ -559,11 +559,11 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
     <div class="hdr-sub">Sun Sep 20 &middot; Cool/cloudy start &middot; Controlled Z2</div>
   </div>
   <div class="tags">
-    <span class="tag tag-type">treadmill &middot; 50 min</span>
+    <span class="tag tag-type">treadmill &middot; 45 min</span>
     <span class="tag" style="background:#1a2a3a;color:#7ab8e0;">coffee adj</span>
     <span class="tag">7+ sleep</span>
     <span class="tag">yesterday 102&ndash;123 controlled</span>
-    <span class="tag">cool start watch HR drift</span>
+    <span class="tag">71&deg;F garage</span>
   </div>
 
   <!-- STYLE 2: Timeline bar -->
@@ -571,8 +571,8 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
     <div class="tl-row">
       <div class="tl-seg tl-s1">Warm<span>6m</span></div>
       <div class="tl-seg tl-s2">Build<span>7m</span></div>
-      <div class="tl-seg tl-s3">Steady<span>25m</span></div>
-      <div class="tl-seg tl-s4">Controlled finish<span>7m</span></div>
+      <div class="tl-seg tl-s3">Steady<span>22m</span></div>
+      <div class="tl-seg tl-s4">Controlled finish<span>5m</span></div>
       <div class="tl-seg tl-s5">Cool<span>5m</span></div>
     </div>
     <div class="tl-settings">
@@ -595,29 +595,29 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
   <div class="phases">
     <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Warm" data-zoom-main="2.2 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="0 &ndash; 6 min &middot; easy start"><div class="ph-left"><div class="ph-name">Warm &middot; easy start</div><div class="ph-settings">2.2 mph / 0%</div></div><div class="ph-right"><div class="ph-time">0 &ndash; 6 min</div><div class="ph-hr">&lt;105 bpm</div></div></div>
     <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.5 mph / 1%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="6 &ndash; 13 min"><div class="ph-left"><div class="ph-name">Build</div><div class="ph-settings">2.5 mph / 1%</div></div><div class="ph-right"><div class="ph-time">6 &ndash; 13 min</div><div class="ph-hr">105&ndash;112 bpm</div></div></div>
-    <div class="phase-card phase-main" onclick="showZoom(this)" data-zoom-phase="Steady" data-zoom-main="2.7 mph / 2%" data-zoom-hr="110&ndash;120 bpm" data-zoom-sub="13 &ndash; 38 min &middot; controlled Z2"><div class="ph-left"><div class="ph-name">Steady &middot; main</div><div class="ph-settings">2.7 mph / 2%</div></div><div class="ph-right"><div class="ph-time">13 &ndash; 38 min</div><div class="ph-hr">110&ndash;120 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Controlled finish" data-zoom-main="2.8 mph / 2%" data-zoom-hr="115&ndash;123 bpm" data-zoom-sub="38 &ndash; 45 min &middot; optional if HR calm"><div class="ph-left"><div class="ph-name">Controlled finish &middot; optional</div><div class="ph-settings">2.8 mph / 2%</div></div><div class="ph-right"><div class="ph-time">38 &ndash; 45 min</div><div class="ph-hr">115&ndash;123 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="45 &ndash; 50 min"><div class="ph-left"><div class="ph-name">Cool</div><div class="ph-settings">1.7 mph / 0%</div></div><div class="ph-right"><div class="ph-time">45 &ndash; 50 min</div><div class="ph-hr">&lt;105 bpm</div></div></div>
+    <div class="phase-card phase-main" onclick="showZoom(this)" data-zoom-phase="Steady" data-zoom-main="2.7 mph / 2%" data-zoom-hr="110&ndash;120 bpm" data-zoom-sub="13 &ndash; 35 min &middot; controlled Z2"><div class="ph-left"><div class="ph-name">Steady &middot; main</div><div class="ph-settings">2.7 mph / 2%</div></div><div class="ph-right"><div class="ph-time">13 &ndash; 35 min</div><div class="ph-hr">110&ndash;120 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Controlled finish" data-zoom-main="2.8 mph / 2%" data-zoom-hr="115&ndash;123 bpm" data-zoom-sub="35 &ndash; 40 min &middot; controlled finish if HR calm"><div class="ph-left"><div class="ph-name">Controlled finish &middot; optional</div><div class="ph-settings">2.8 mph / 2%</div></div><div class="ph-right"><div class="ph-time">35 &ndash; 40 min</div><div class="ph-hr">115&ndash;123 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="40 &ndash; 45 min"><div class="ph-left"><div class="ph-name">Cool</div><div class="ph-settings">1.7 mph / 0%</div></div><div class="ph-right"><div class="ph-time">40 &ndash; 45 min</div><div class="ph-hr">&lt;105 bpm</div></div></div>
   </div>
 
   <!-- STYLE 2 & 3: Phase table (tappable) -->
   <div class="phase-table">
     <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Warm" data-zoom-main="2.2 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="0 &ndash; 6 min &middot; easy start"><div class="pt-dot" style="background:#c8d8c0;"></div><div class="pt-left"><div class="pt-name">Warm</div><div class="pt-time">0 &ndash; 6 min</div></div><div class="pt-mid"><div class="pt-set">2.2 mph / 0%</div></div><div class="pt-hr">&lt;105 bpm</div></div>
     <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.5 mph / 1%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="6 &ndash; 13 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Build</div><div class="pt-time">6 &ndash; 13 min</div></div><div class="pt-mid"><div class="pt-set">2.5 mph / 1%</div></div><div class="pt-hr">105&ndash;112 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Steady" data-zoom-main="2.7 mph / 2%" data-zoom-hr="110&ndash;120 bpm" data-zoom-sub="13 &ndash; 38 min &middot; controlled Z2"><div class="pt-dot" style="background:#4ade80;"></div><div class="pt-left"><div class="pt-name" style="font-weight:900;">Steady</div><div class="pt-time">13 &ndash; 38 min</div></div><div class="pt-mid"><div class="pt-set" style="font-weight:800; color:#3a5a2e;">2.7 mph / 2%</div></div><div class="pt-hr" style="color:#3a5a2e; font-weight:900;">110&ndash;120 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Controlled finish" data-zoom-main="2.8 mph / 2%" data-zoom-hr="115&ndash;123 bpm" data-zoom-sub="38 &ndash; 45 min &middot; optional if HR calm"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Controlled finish</div><div class="pt-time">38 &ndash; 45 min</div></div><div class="pt-mid"><div class="pt-set">2.8 mph / 2%</div></div><div class="pt-hr">115&ndash;123 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="45 &ndash; 50 min"><div class="pt-dot" style="background:#b8cca8;"></div><div class="pt-left"><div class="pt-name">Cool</div><div class="pt-time">45 &ndash; 50 min</div></div><div class="pt-mid"><div class="pt-set">1.7 mph / 0%</div></div><div class="pt-hr">&lt;105 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Steady" data-zoom-main="2.7 mph / 2%" data-zoom-hr="110&ndash;120 bpm" data-zoom-sub="13 &ndash; 35 min &middot; controlled Z2"><div class="pt-dot" style="background:#4ade80;"></div><div class="pt-left"><div class="pt-name" style="font-weight:900;">Steady</div><div class="pt-time">13 &ndash; 35 min</div></div><div class="pt-mid"><div class="pt-set" style="font-weight:800; color:#3a5a2e;">2.7 mph / 2%</div></div><div class="pt-hr" style="color:#3a5a2e; font-weight:900;">110&ndash;120 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Controlled finish" data-zoom-main="2.8 mph / 2%" data-zoom-hr="115&ndash;123 bpm" data-zoom-sub="35 &ndash; 40 min &middot; controlled finish if HR calm"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Controlled finish</div><div class="pt-time">35 &ndash; 40 min</div></div><div class="pt-mid"><div class="pt-set">2.8 mph / 2%</div></div><div class="pt-hr">115&ndash;123 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="40 &ndash; 45 min"><div class="pt-dot" style="background:#b8cca8;"></div><div class="pt-left"><div class="pt-name">Cool</div><div class="pt-time">40 &ndash; 45 min</div></div><div class="pt-mid"><div class="pt-set">1.7 mph / 0%</div></div><div class="pt-hr">&lt;105 bpm</div></div>
   </div>
 
   <!-- SUMMARY BOXES (tappable) -->
   <div class="summary">
-    <div class="sum-box sum-box-dur" onclick="showZoom(this)" data-zoom-main="50 min" data-zoom-sub="Duration"><div class="sum-label">Duration</div><div class="sum-val">50</div><div class="sum-unit">min</div></div>
+    <div class="sum-box sum-box-dur" onclick="showZoom(this)" data-zoom-main="45 min" data-zoom-sub="Duration"><div class="sum-label">Duration</div><div class="sum-val">45</div><div class="sum-unit">min</div></div>
     <div class="sum-box sum-box-peak" onclick="showZoom(this)" data-zoom-main="115&ndash;123" data-zoom-sub="Peak Target &middot; bpm"><div class="sum-label">Peak HR</div><div class="sum-val sum-val-peak">115&ndash;123</div><div class="sum-unit">bpm</div></div>
     <div class="sum-box sum-box-cap" onclick="showZoom(this)" data-zoom-main="128" data-zoom-sub="Hard cap &middot; coffee adjusted"><div class="sum-label">Cap</div><div class="sum-val sum-val-cap">128</div><div class="sum-unit">hard</div></div>
   </div>
 
   <button class="start-btn" onclick="startSession()">Start session</button>
-  <div class="warning">Yesterday's workout was controlled: about 45 min, HR 102&ndash;123, no sustained cap issue. With 7+ hours sleep, today can be a normal Z2 aerobic day: longer steady time, but no hard push.<br>If garage is &ge;80&deg;F/stuffy or HR stays &gt;123 for 2 min, skip the controlled finish and cool down at 45 min. Near 128 or not settling: 1.7 mph flat cooldown/end.<br>If garage is cool (&le;75&deg;F) and HR is still &lt;110 after 18 min, add only one notch: 2.8 mph / 2% steady or 2.9 mph / 2% for the final 7 min. Stop for sharper/radiating pain, numbness increasing/spreading, weakness/limping, dizziness, chest symptoms, unusual shortness of breath, headache, or vision changes.</div>
+  <div class="warning">Yesterday's workout was controlled: about 45 min, HR 102&ndash;123, no sustained cap issue. With 7+ hours sleep and garage 71&deg;F, keep today at 45 min: controlled Z2, not a stretch day.<br>If HR stays &gt;123 for 2 min, drop to 2.5 mph / 1% until it settles. Near 128 or not settling: 1.7 mph flat cooldown/end.<br>If HR is still &lt;110 after 18 min at this cool garage temp, add only one notch: 2.8 mph / 2% steady. Do not extend beyond 45 min. Stop for sharper/radiating pain, numbness increasing/spreading, weakness/limping, dizziness, chest symptoms, unusual shortness of breath, headache, or vision changes.</div>
 
 </div>
 
@@ -728,7 +728,7 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
     <div class="stat-grid fu3">
       <div class="stat-card">
         <div class="stat-micro">Duration</div>
-        <div class="stat-value" id="c-duration">50<span class="stat-unit"> min</span></div>
+        <div class="stat-value" id="c-duration">45<span class="stat-unit"> min</span></div>
       </div>
       <div class="stat-card">
         <div class="stat-micro">Peak Setting</div>
