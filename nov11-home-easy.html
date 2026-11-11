@@ -7,7 +7,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<title>Nov 11 · 40-minute sleep-limited easy treadmill</title>
+<title>Nov 11 · 30-minute sleep-limited easy treadmill</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
@@ -133,19 +133,19 @@ body {
 .style-timeline .tl-row { display: flex; gap: 3px; border-radius: 10px; overflow: hidden; height: 44px; }
 .style-timeline .tl-seg { display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 11px; font-weight: 700; color: #fff; }
 .style-timeline .tl-seg span { font-size: 10px; font-weight: 500; opacity: 0.8; }
-.style-timeline .tl-s1 { flex:6; background: #c8d8c0; color: #3a5a2e; }
-.style-timeline .tl-s2 { flex:6; background: #8aaa78; }
-.style-timeline .tl-s3 { flex:18; background: #4a8a3a; }
-.style-timeline .tl-s4 { flex:5; background: #8aaa78; }
+.style-timeline .tl-s1 { flex:5; background: #c8d8c0; color: #3a5a2e; }
+.style-timeline .tl-s2 { flex:5; background: #8aaa78; }
+.style-timeline .tl-s3 { flex:12; background: #4a8a3a; }
+.style-timeline .tl-s4 { flex:3; background: #8aaa78; }
 .style-timeline .tl-s5 { flex:5; background: #b8cca8; color: #3a5a2e; }
 
 .style-timeline .tl-settings { display: flex; gap: 3px; margin-top: 6px; }
 .style-timeline .tl-set { display: flex; flex-direction: column; align-items: center; font-size: 13px; font-weight: 700; color: #4a4a3a; }
 .style-timeline .tl-set span { font-size: 11px; color: #9a9a8a; }
-.style-timeline .tl-set.s1 { flex:6; }
-.style-timeline .tl-set.s2 { flex:6; }
-.style-timeline .tl-set.s3 { flex:18; }
-.style-timeline .tl-set.s4 { flex:5; }
+.style-timeline .tl-set.s1 { flex:5; }
+.style-timeline .tl-set.s2 { flex:5; }
+.style-timeline .tl-set.s3 { flex:12; }
+.style-timeline .tl-set.s4 { flex:3; }
 .style-timeline .tl-set.s5 { flex:5; }
 
 .style-timeline .sum-box { background: #f0eee6; border: 1px solid #e0ddd4; }
@@ -559,20 +559,20 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
     <div class="hdr-sub">Wed Nov 11 &middot; Home treadmill &middot; Sleep-limited easy</div>
   </div>
   <div class="tags">
-    <span class="tag tag-type">easy aerobic &middot; 40 min</span>
+    <span class="tag tag-type">easy aerobic &middot; 30 min</span>
     <span class="tag" style="background:#1a2a3a;color:#7ab8e0;">soft cap 120 / hard cap 125</span>
     <span class="tag">5+ total hours sleep</span>
-    <span class="tag">40 min preference &middot; easy today</span>
+    <span class="tag">30 min requested &middot; easy today</span>
     <span class="tag">controlled &middot; no finish push</span>
   </div>
 
   <!-- STYLE 2: Timeline bar -->
   <div class="timeline-bar">
     <div class="tl-row">
-      <div class="tl-seg tl-s1">Warm<span>6m</span></div>
-      <div class="tl-seg tl-s2">Build<span>6m</span></div>
-      <div class="tl-seg tl-s3">Steady easy<span>18m</span></div>
-      <div class="tl-seg tl-s4">Ease<span>5m</span></div>
+      <div class="tl-seg tl-s1">Warm<span>5m</span></div>
+      <div class="tl-seg tl-s2">Build<span>5m</span></div>
+      <div class="tl-seg tl-s3">Steady easy<span>12m</span></div>
+      <div class="tl-seg tl-s4">Ease<span>3m</span></div>
       <div class="tl-seg tl-s5">Cool<span>5m</span></div>
     </div>
     <div class="tl-settings">
@@ -593,31 +593,31 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
 
   <!-- STYLE 1: Phase cards (tappable) -->
   <div class="phases">
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Warm" data-zoom-main="2.1 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="0 &ndash; 6 min"><div class="ph-left"><div class="ph-name">Warm</div><div class="ph-settings">2.1 mph / 0%</div></div><div class="ph-right"><div class="ph-time">0 &ndash; 6 min</div><div class="ph-hr">&lt;105 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.4 mph / 1%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="6 &ndash; 12 min"><div class="ph-left"><div class="ph-name">Build</div><div class="ph-settings">2.4 mph / 1%</div></div><div class="ph-right"><div class="ph-time">6 &ndash; 12 min</div><div class="ph-hr">105&ndash;112 bpm</div></div></div>
-    <div class="phase-card phase-main" onclick="showZoom(this)" data-zoom-phase="Steady easy" data-zoom-main="2.6 mph / 1%" data-zoom-hr="108&ndash;118 bpm" data-zoom-sub="12 &ndash; 30 min"><div class="ph-left"><div class="ph-name">Steady easy</div><div class="ph-settings">2.6 mph / 1%</div></div><div class="ph-right"><div class="ph-time">12 &ndash; 30 min</div><div class="ph-hr">108&ndash;118 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.3 mph / 0%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="30 &ndash; 35 min"><div class="ph-left"><div class="ph-name">Ease</div><div class="ph-settings">2.3 mph / 0%</div></div><div class="ph-right"><div class="ph-time">30 &ndash; 35 min</div><div class="ph-hr">105&ndash;112 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="35 &ndash; 40 min"><div class="ph-left"><div class="ph-name">Cool</div><div class="ph-settings">1.7 mph / 0%</div></div><div class="ph-right"><div class="ph-time">35 &ndash; 40 min</div><div class="ph-hr">&lt;105 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Warm" data-zoom-main="2.1 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="0 &ndash; 5 min"><div class="ph-left"><div class="ph-name">Warm</div><div class="ph-settings">2.1 mph / 0%</div></div><div class="ph-right"><div class="ph-time">0 &ndash; 5 min</div><div class="ph-hr">&lt;105 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.4 mph / 1%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="5 &ndash; 10 min"><div class="ph-left"><div class="ph-name">Build</div><div class="ph-settings">2.4 mph / 1%</div></div><div class="ph-right"><div class="ph-time">5 &ndash; 10 min</div><div class="ph-hr">105&ndash;112 bpm</div></div></div>
+    <div class="phase-card phase-main" onclick="showZoom(this)" data-zoom-phase="Steady easy" data-zoom-main="2.6 mph / 1%" data-zoom-hr="108&ndash;118 bpm" data-zoom-sub="10 &ndash; 22 min"><div class="ph-left"><div class="ph-name">Steady easy</div><div class="ph-settings">2.6 mph / 1%</div></div><div class="ph-right"><div class="ph-time">10 &ndash; 22 min</div><div class="ph-hr">108&ndash;118 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.3 mph / 0%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="22 &ndash; 25 min"><div class="ph-left"><div class="ph-name">Ease</div><div class="ph-settings">2.3 mph / 0%</div></div><div class="ph-right"><div class="ph-time">22 &ndash; 25 min</div><div class="ph-hr">105&ndash;112 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="25 &ndash; 30 min"><div class="ph-left"><div class="ph-name">Cool</div><div class="ph-settings">1.7 mph / 0%</div></div><div class="ph-right"><div class="ph-time">25 &ndash; 30 min</div><div class="ph-hr">&lt;105 bpm</div></div></div>
   </div>
 
   <!-- STYLE 2 & 3: Phase table (tappable) -->
   <div class="phase-table">
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Warm" data-zoom-main="2.1 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="0 &ndash; 6 min"><div class="pt-dot" style="background:#c8d8c0;"></div><div class="pt-left"><div class="pt-name">Warm</div><div class="pt-time">0 &ndash; 6 min</div></div><div class="pt-mid"><div class="pt-set">2.1 mph / 0%</div></div><div class="pt-hr">&lt;105 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.4 mph / 1%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="6 &ndash; 12 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Build</div><div class="pt-time">6 &ndash; 12 min</div></div><div class="pt-mid"><div class="pt-set">2.4 mph / 1%</div></div><div class="pt-hr">105&ndash;112 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Steady easy" data-zoom-main="2.6 mph / 1%" data-zoom-hr="108&ndash;118 bpm" data-zoom-sub="12 &ndash; 30 min"><div class="pt-dot" style="background:#4ade80;"></div><div class="pt-left"><div class="pt-name" style="font-weight:900;">Steady easy</div><div class="pt-time">12 &ndash; 30 min</div></div><div class="pt-mid"><div class="pt-set" style="font-weight:800; color:#3a5a2e;">2.6 mph / 1%</div></div><div class="pt-hr" style="color:#3a5a2e; font-weight:900;">108&ndash;118 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.3 mph / 0%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="30 &ndash; 35 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Ease</div><div class="pt-time">30 &ndash; 35 min</div></div><div class="pt-mid"><div class="pt-set">2.3 mph / 0%</div></div><div class="pt-hr">105&ndash;112 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="35 &ndash; 40 min"><div class="pt-dot" style="background:#b8cca8;"></div><div class="pt-left"><div class="pt-name">Cool</div><div class="pt-time">35 &ndash; 40 min</div></div><div class="pt-mid"><div class="pt-set">1.7 mph / 0%</div></div><div class="pt-hr">&lt;105 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Warm" data-zoom-main="2.1 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="0 &ndash; 5 min"><div class="pt-dot" style="background:#c8d8c0;"></div><div class="pt-left"><div class="pt-name">Warm</div><div class="pt-time">0 &ndash; 5 min</div></div><div class="pt-mid"><div class="pt-set">2.1 mph / 0%</div></div><div class="pt-hr">&lt;105 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.4 mph / 1%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="5 &ndash; 10 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Build</div><div class="pt-time">5 &ndash; 10 min</div></div><div class="pt-mid"><div class="pt-set">2.4 mph / 1%</div></div><div class="pt-hr">105&ndash;112 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Steady easy" data-zoom-main="2.6 mph / 1%" data-zoom-hr="108&ndash;118 bpm" data-zoom-sub="10 &ndash; 22 min"><div class="pt-dot" style="background:#4ade80;"></div><div class="pt-left"><div class="pt-name" style="font-weight:900;">Steady easy</div><div class="pt-time">10 &ndash; 22 min</div></div><div class="pt-mid"><div class="pt-set" style="font-weight:800; color:#3a5a2e;">2.6 mph / 1%</div></div><div class="pt-hr" style="color:#3a5a2e; font-weight:900;">108&ndash;118 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.3 mph / 0%" data-zoom-hr="105&ndash;112 bpm" data-zoom-sub="22 &ndash; 25 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Ease</div><div class="pt-time">22 &ndash; 25 min</div></div><div class="pt-mid"><div class="pt-set">2.3 mph / 0%</div></div><div class="pt-hr">105&ndash;112 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;105 bpm" data-zoom-sub="25 &ndash; 30 min"><div class="pt-dot" style="background:#b8cca8;"></div><div class="pt-left"><div class="pt-name">Cool</div><div class="pt-time">25 &ndash; 30 min</div></div><div class="pt-mid"><div class="pt-set">1.7 mph / 0%</div></div><div class="pt-hr">&lt;105 bpm</div></div>
   </div>
 
   <!-- SUMMARY BOXES (tappable) -->
   <div class="summary">
-    <div class="sum-box sum-box-dur" onclick="showZoom(this)" data-zoom-main="40 min" data-zoom-sub="Duration"><div class="sum-label">Duration</div><div class="sum-val">40</div><div class="sum-unit">min</div></div>
+    <div class="sum-box sum-box-dur" onclick="showZoom(this)" data-zoom-main="30 min" data-zoom-sub="Duration"><div class="sum-label">Duration</div><div class="sum-val">30</div><div class="sum-unit">min</div></div>
     <div class="sum-box sum-box-peak" onclick="showZoom(this)" data-zoom-main="108&ndash;118" data-zoom-sub="Peak Target &middot; bpm"><div class="sum-label">Peak HR</div><div class="sum-val sum-val-peak">108&ndash;118</div><div class="sum-unit">bpm</div></div>
     <div class="sum-box sum-box-cap" onclick="showZoom(this)" data-zoom-main="125" data-zoom-sub="Hard cap &middot; conservative today"><div class="sum-label">Cap</div><div class="sum-val sum-val-cap">125</div><div class="sum-unit">hard</div></div>
   </div>
 
   <button class="start-btn" onclick="startSession()">Start session</button>
-  <div class="warning">40-minute easy home treadmill session. Yesterday Nov 10: walking Highlights 96–120 bpm, 4:36–5:16 PM (40 minutes); selected Workout 100–119 bpm. The broader hourly chart includes time after the workout, not extra workout minutes.<br><b>5+ total hours of sleep warrants a slight reduction.</b> Fragmentation is your normal pattern; the short total is the reason to ease back. No intensity push or HR chasing today. Mostly 105–118 bpm; steady 108–118.<br><b>Soft cap 120; conservative hard cap 125 today.</b> Above 120 sustained: reduce incline to 0% or speed by 0.2 mph. At 125 begin cooldown. Lower HR is fine if effort is easy; do not dial up toward prior harder calibration today.<br><b>Check actual garage temperature before starting.</b> Fremont weather lookup Nov 11 around 1:30 PM PST reported sunny, 68°F (wttr.in); this is outdoor weather, not a garage reading. Garage temperature is unmeasured and may be warmer. Use a cool, ventilated space, ideally 76°F or below. At 77–79°F keep flat and lower speed if needed. At 80°F or above cool first or use a cooler space; at 82°F or above or stuffy, skip the garage session until cooled.<br><b>12-minute check:</b> if still tired, stay at Build or easier. For a 30-minute exit, begin 5 minutes of cooldown at minute 25. Stop sooner if unwell; do not force the duration.<br><b>Stop for dizziness, chest symptoms, unusual breathlessness, headache, or worsening leg symptoms.</b> New weakness/numbness, speech or vision changes, or sudden severe headache require urgent medical attention.</div>
+  <div class="warning">30-minute easy home treadmill session, as requested. Shorter, not harder. Yesterday Nov 10: walking Highlights 96–120 bpm, 4:36–5:16 PM (40 minutes); selected Workout 100–119 bpm. The broader hourly chart includes time after the workout, not extra workout minutes.<br><b>5+ total hours of sleep warrants a slight reduction.</b> Fragmentation is your normal pattern; the short total is the reason to ease back. No intensity push or HR chasing today. Mostly 105–118 bpm; steady 108–118.<br><b>Soft cap 120; conservative hard cap 125 today.</b> Above 120 sustained: reduce incline to 0% or speed by 0.2 mph. At 125 begin cooldown. Lower HR is fine if effort is easy; do not dial up toward prior harder calibration today.<br><b>Check actual garage temperature before starting.</b> Fremont weather lookup Nov 11 around 1:30 PM PST reported sunny, 68°F (wttr.in); this is outdoor weather, not a garage reading. Garage temperature is unmeasured and may be warmer. Use a cool, ventilated space, ideally 76°F or below. At 77–79°F keep flat and lower speed if needed. At 80°F or above cool first or use a cooler space; at 82°F or above or stuffy, skip the garage session until cooled.<br><b>10-minute check:</b> if still tired, stay at Build or easier. If still tired, take a 20-minute total exit including cooldown: begin 5 minutes of cooldown at minute 15. Stop sooner if unwell; do not force the duration.<br><b>Stop for dizziness, chest symptoms, unusual breathlessness, headache, or worsening leg symptoms.</b> New weakness/numbness, speech or vision changes, or sudden severe headache require urgent medical attention.</div>
 
 </div>
 
@@ -652,7 +652,7 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
         <circle class="ring-inner" cx="102" cy="102" r="72" fill="none" stroke-width="1"/>
       </svg>
       <div class="ring-text-overlay">
-        <div class="timer-digits" id="s-timer">6:00</div>
+        <div class="timer-digits" id="s-timer">5:00</div>
         <div class="timer-sub">Remaining</div>
       </div>
     </div>
@@ -728,7 +728,7 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
     <div class="stat-grid fu3">
       <div class="stat-card">
         <div class="stat-micro">Duration</div>
-        <div class="stat-value" id="c-duration">40<span class="stat-unit"> min</span></div>
+        <div class="stat-value" id="c-duration">30<span class="stat-unit"> min</span></div>
       </div>
       <div class="stat-card">
         <div class="stat-micro">Peak Setting</div>
@@ -740,7 +740,7 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
       </div>
       <div class="stat-card">
         <div class="stat-micro">Target HR</div>
-        <div class="stat-value accent" id="c-hr">110-120<span class="stat-unit accent"> bpm</span></div>
+        <div class="stat-value accent" id="c-hr">108-118<span class="stat-unit accent"> bpm</span></div>
       </div>
     </div>
 
