@@ -591,28 +591,30 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
     <div class="ic-labels"><span>Check</span><span>Build</span><span class="ic-active">Easy</span><span>Ease</span><span>Cool</span></div>
   </div>
 
+  <div style="padding:8px 22px 12px;font-size:12px;line-height:1.5;"><b>Approximate HR guides, not minimums.</b> Do not increase settings just to hit these bands. Symptoms override HR. The separate ceiling remains 120 bpm, not a goal. These are conservative estimates based on yesterday’s full 85–113 / selected 91–113 bpm record, not measured predictions for each phase.</div>
+
   <!-- STYLE 1: Phase cards (tappable) -->
   <div class="phases">
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Check" data-zoom-main="2.0 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="0 &ndash; 6 min"><div class="ph-left"><div class="ph-name">Check</div><div class="ph-settings">2.0 mph / 0%</div></div><div class="ph-right"><div class="ph-time">0 &ndash; 6 min</div><div class="ph-hr">&le;120 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.2 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="6 &ndash; 12 min"><div class="ph-left"><div class="ph-name">Build</div><div class="ph-settings">2.2 mph / 0%</div></div><div class="ph-right"><div class="ph-time">6 &ndash; 12 min</div><div class="ph-hr">&le;120 bpm</div></div></div>
-    <div class="phase-card phase-main" onclick="showZoom(this)" data-zoom-phase="Easy" data-zoom-main="2.5 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="12 &ndash; 30 min"><div class="ph-left"><div class="ph-name">Easy</div><div class="ph-settings">2.5 mph / 0%</div></div><div class="ph-right"><div class="ph-time">12 &ndash; 30 min</div><div class="ph-hr">&le;120 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.2 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="30 &ndash; 35 min"><div class="ph-left"><div class="ph-name">Ease</div><div class="ph-settings">2.2 mph / 0%</div></div><div class="ph-right"><div class="ph-time">30 &ndash; 35 min</div><div class="ph-hr">&le;120 bpm</div></div></div>
-    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="35 &ndash; 40 min"><div class="ph-left"><div class="ph-name">Cool</div><div class="ph-settings">1.7 mph / 0%</div></div><div class="ph-right"><div class="ph-time">35 &ndash; 40 min</div><div class="ph-hr">&le;120 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Check" data-zoom-main="2.0 mph / 0%" data-zoom-hr="&lt;100 bpm" data-zoom-sub="0 &ndash; 6 min"><div class="ph-left"><div class="ph-name">Check</div><div class="ph-settings">2.0 mph / 0%</div></div><div class="ph-right"><div class="ph-time">0 &ndash; 6 min</div><div class="ph-hr">&lt;100 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.2 mph / 0%" data-zoom-hr="95–105 bpm" data-zoom-sub="6 &ndash; 12 min"><div class="ph-left"><div class="ph-name">Build</div><div class="ph-settings">2.2 mph / 0%</div></div><div class="ph-right"><div class="ph-time">6 &ndash; 12 min</div><div class="ph-hr">95–105 bpm</div></div></div>
+    <div class="phase-card phase-main" onclick="showZoom(this)" data-zoom-phase="Easy" data-zoom-main="2.5 mph / 0%" data-zoom-hr="100–113 bpm" data-zoom-sub="12 &ndash; 30 min"><div class="ph-left"><div class="ph-name">Easy</div><div class="ph-settings">2.5 mph / 0%</div></div><div class="ph-right"><div class="ph-time">12 &ndash; 30 min</div><div class="ph-hr">100–113 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.2 mph / 0%" data-zoom-hr="95–105 bpm" data-zoom-sub="30 &ndash; 35 min"><div class="ph-left"><div class="ph-name">Ease</div><div class="ph-settings">2.2 mph / 0%</div></div><div class="ph-right"><div class="ph-time">30 &ndash; 35 min</div><div class="ph-hr">95–105 bpm</div></div></div>
+    <div class="phase-card" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;100 bpm" data-zoom-sub="35 &ndash; 40 min"><div class="ph-left"><div class="ph-name">Cool</div><div class="ph-settings">1.7 mph / 0%</div></div><div class="ph-right"><div class="ph-time">35 &ndash; 40 min</div><div class="ph-hr">&lt;100 bpm</div></div></div>
   </div>
 
   <!-- STYLE 2 & 3: Phase table (tappable) -->
   <div class="phase-table">
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Check" data-zoom-main="2.0 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="0 &ndash; 6 min"><div class="pt-dot" style="background:#c8d8c0;"></div><div class="pt-left"><div class="pt-name">Check</div><div class="pt-time">0 &ndash; 6 min</div></div><div class="pt-mid"><div class="pt-set">2.0 mph / 0%</div></div><div class="pt-hr">&le;120 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.2 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="6 &ndash; 12 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Build</div><div class="pt-time">6 &ndash; 12 min</div></div><div class="pt-mid"><div class="pt-set">2.2 mph / 0%</div></div><div class="pt-hr">&le;120 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Easy" data-zoom-main="2.5 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="12 &ndash; 30 min"><div class="pt-dot" style="background:#4ade80;"></div><div class="pt-left"><div class="pt-name" style="font-weight:900;">Easy</div><div class="pt-time">12 &ndash; 30 min</div></div><div class="pt-mid"><div class="pt-set" style="font-weight:800; color:#3a5a2e;">2.5 mph / 0%</div></div><div class="pt-hr" style="color:#3a5a2e; font-weight:900;">&le;120 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.2 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="30 &ndash; 35 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Ease</div><div class="pt-time">30 &ndash; 35 min</div></div><div class="pt-mid"><div class="pt-set">2.2 mph / 0%</div></div><div class="pt-hr">&le;120 bpm</div></div>
-    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&le;120 bpm" data-zoom-sub="35 &ndash; 40 min"><div class="pt-dot" style="background:#b8cca8;"></div><div class="pt-left"><div class="pt-name">Cool</div><div class="pt-time">35 &ndash; 40 min</div></div><div class="pt-mid"><div class="pt-set">1.7 mph / 0%</div></div><div class="pt-hr">&le;120 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Check" data-zoom-main="2.0 mph / 0%" data-zoom-hr="&lt;100 bpm" data-zoom-sub="0 &ndash; 6 min"><div class="pt-dot" style="background:#c8d8c0;"></div><div class="pt-left"><div class="pt-name">Check</div><div class="pt-time">0 &ndash; 6 min</div></div><div class="pt-mid"><div class="pt-set">2.0 mph / 0%</div></div><div class="pt-hr">&lt;100 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Build" data-zoom-main="2.2 mph / 0%" data-zoom-hr="95–105 bpm" data-zoom-sub="6 &ndash; 12 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Build</div><div class="pt-time">6 &ndash; 12 min</div></div><div class="pt-mid"><div class="pt-set">2.2 mph / 0%</div></div><div class="pt-hr">95–105 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Easy" data-zoom-main="2.5 mph / 0%" data-zoom-hr="100–113 bpm" data-zoom-sub="12 &ndash; 30 min"><div class="pt-dot" style="background:#4ade80;"></div><div class="pt-left"><div class="pt-name" style="font-weight:900;">Easy</div><div class="pt-time">12 &ndash; 30 min</div></div><div class="pt-mid"><div class="pt-set" style="font-weight:800; color:#3a5a2e;">2.5 mph / 0%</div></div><div class="pt-hr" style="color:#3a5a2e; font-weight:900;">100–113 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Ease" data-zoom-main="2.2 mph / 0%" data-zoom-hr="95–105 bpm" data-zoom-sub="30 &ndash; 35 min"><div class="pt-dot" style="background:#8aaa78;"></div><div class="pt-left"><div class="pt-name">Ease</div><div class="pt-time">30 &ndash; 35 min</div></div><div class="pt-mid"><div class="pt-set">2.2 mph / 0%</div></div><div class="pt-hr">95–105 bpm</div></div>
+    <div class="pt-row" onclick="showZoom(this)" data-zoom-phase="Cool" data-zoom-main="1.7 mph / 0%" data-zoom-hr="&lt;100 bpm" data-zoom-sub="35 &ndash; 40 min"><div class="pt-dot" style="background:#b8cca8;"></div><div class="pt-left"><div class="pt-name">Cool</div><div class="pt-time">35 &ndash; 40 min</div></div><div class="pt-mid"><div class="pt-set">1.7 mph / 0%</div></div><div class="pt-hr">&lt;100 bpm</div></div>
   </div>
 
   <!-- SUMMARY BOXES (tappable) -->
   <div class="summary">
     <div class="sum-box sum-box-dur" onclick="showZoom(this)" data-zoom-main="40 min maximum" data-zoom-sub="Stop sooner freely"><div class="sum-label">Maximum</div><div class="sum-val">40</div><div class="sum-unit">min, optional</div></div>
-    <div class="sum-box sum-box-peak" onclick="showZoom(this)" data-zoom-main="Easy" data-zoom-sub="Conversational effort; no HR minimum"><div class="sum-label">Effort</div><div class="sum-val sum-val-peak">Easy</div><div class="sum-unit">conversational</div></div>
+    <div class="sum-box sum-box-peak" onclick="showZoom(this)" data-zoom-main="100–113 bpm" data-zoom-sub="Easy-phase approximate guide, not a minimum; do not chase bands"><div class="sum-label">Easy HR guide</div><div class="sum-val sum-val-peak" style="font-size:18px;">100–113</div><div class="sum-unit">approx. bpm</div></div>
     <div class="sum-box sum-box-cap" onclick="showZoom(this)" data-zoom-main="120" data-zoom-sub="Conservative ceiling, NOT a goal"><div class="sum-label">HR ceiling</div><div class="sum-val sum-val-cap">120</div><div class="sum-unit">not a goal</div></div>
   </div>
 
@@ -669,13 +671,15 @@ body.bg-dark .style-selector button.active { background: #2a5a3a; color: #fff; b
       </div>
       <div class="metric-divider"></div>
       <div class="metric-block right">
-        <div class="metric-micro">HR ceiling</div>
+        <div class="metric-micro">Approx. HR guide</div>
         <div class="bpm-row" id="s-hr">
           <span class="hb"></span>
-          &le;120 <span class="bpm-unit">bpm</span>
+          &lt;100 <span class="bpm-unit">bpm</span>
         </div>
       </div>
     </div>
+
+    <div style="font-size:12px;text-align:center;line-height:1.5;color:#888;">Approximate, no HR minimum · do not chase bands<br>120 bpm ceiling, not a goal · symptoms override HR</div>
 
     <!-- Segments -->
     <div class="segments">
